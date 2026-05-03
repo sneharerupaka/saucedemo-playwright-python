@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pytest Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests/ui/test_login.py",
+                "-v",
+                "--headed",
+                "--browser",
+                "chromium"
+            ],
+            "justMyCode": true
+        }
+    ]
+}
